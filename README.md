@@ -1,2 +1,2 @@
-# javascript-101
-ECMAScript Feature set
+# JavaScript-101
+ECMAScript Feature set.

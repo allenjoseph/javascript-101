@@ -1,0 +1,12 @@
+{
+  "name": "javascript-101",
+  "version": "1.0.0",
+  "description": "JavaScript project to show the major ES features by version",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "TZ=UTC node index.js"
+  },
+  "author": "allenjoseph.dev",
+  "license": "MIT"
+}
