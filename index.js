@@ -1,2 +1,2 @@
-import './features/ES6.js';
-import './features/ES7.js';
+import "./features/ES6/index.js";
+import "./features/ES7/index.js";

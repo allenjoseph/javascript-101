@@ -1,26 +1,33 @@
 export function getJSHistory() {
-  return {
-    [1950]: 'inicios de la computacion',
-    [1969]: 'arpanet',
-    [1990]: 'world wid web',
-    [1993]: 'mosaic browser',
-    [1994]: 'netscape browser',
-    [1995]: 'internet explorer browser',
-    [1995]: 'Mocha / Livescript / JavaScript',
-    [1996]: 'JScript',
-    [1997]: 'ECMA-262 / ECMAScript / ES1 (responsible by TC39 of ECMA)',
-    [1998]: 'ES2',
-    [1999]: 'ES3',
-    [2005]: 'ES5',
-    [2011]: 'ES5.1',
-    [2015]: 'ES6 / ECMAScript 2015',
-    [2016]: 'ES7 / ECMAScript 2016',
-    [2017]: 'ES8 / ECMAScript 2017',
-    [2018]: 'ES9 / ECMAScript 2018',
-    [2019]: 'ES10 / ECMAScript 2019',
-    [2020]: 'ES11 / ECMAScript 2020',
-    [2021]: 'ES12 / ECMAScript 2021',
-    [2022]: 'ES13 / ECMAScript 2022',
-    [2023]: 'ES14 / ECMAScript 2023'
-  };
-}  
+  return [
+    { year: 1950, description: "inicios de la computacion" },
+    { year: 1969, description: "arpanet" },
+    { year: 1990, description: "world wid web" },
+    { year: 1993, description: "mosaic browser" },
+    { year: 1994, description: "netscape browser" },
+    { year: 1995, description: "internet explorer browser" },
+    { year: 1995, description: "Mocha / Livescript / JavaScript" },
+    { year: 1996, description: "JScript" },
+    {
+      year: 1997,
+      description: "ECMA-262 / ECMAScript / ES1 (responsible by TC39 of ECMA)",
+    },
+    { year: 1998, description: "ES2" },
+    { year: 1999, description: "ES3" },
+    { year: 2005, description: "ES5" },
+    { year: 2011, description: "ES5.1" },
+    {
+      year: 2015,
+      description: "ES6 / ECMAScript 2015",
+      specification: "https://262.ecma-international.org/6.0/",
+    },
+    { year: 2016, description: "ES7 / ECMAScript 2016" },
+    { year: 2017, description: "ES8 / ECMAScript 2017" },
+    { year: 2018, description: "ES9 / ECMAScript 2018" },
+    { year: 2019, description: "ES10 / ECMAScript 2019" },
+    { year: 2020, description: "ES11 / ECMAScript 2020" },
+    { year: 2021, description: "ES12 / ECMAScript 2021" },
+    { year: 2022, description: "ES13 / ECMAScript 2022" },
+    { year: 2023, description: "ES14 / ECMAScript 2023" },
+  ];
+}
